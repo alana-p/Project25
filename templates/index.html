@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Affects The Grades Of Students?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffb6c1; /* Light Pink Background */
+        }
+
+        h1 { 
+            border: 3px solid white; 
+            padding: 10px; 
+            display: inline-block; 
+            border-radius: 10px; 
+            background-color: rgba(255, 255, 255, 0.3); 
+            color: black;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            color: white;
+            background-color: #ff69b4; /* Hot Pink Buttons */
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #d14791;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: auto;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>What Affects The Grades Of Students?</h1>
+
+ 
+<nav>
+    <a href="{{ url_for('graphs') }}">Graphs</a>
+</nav>
+
+
+
+    <div class="container">
+        <h2>About</h2>
+        <p>Welcome to the homepage my website.</p>
+    </div>
+
+</body>
+</html>
